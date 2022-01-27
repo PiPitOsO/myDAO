@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class MyController {
     @GetMapping()
     public String name() {
-        return "hiiii";
+        return "gi";
     }
 
     @GetMapping("/products/fetch-product")
