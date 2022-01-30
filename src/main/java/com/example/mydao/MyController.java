@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class MyController {
-    @GetMapping()
+    @GetMapping("/products/fetch-product")
     public String name(@RequestParam(required = false) String name) {
         System.out.println("hi " + name);
-        return "fetch-product.html";
+        return "fetch-product";
     }
 }
