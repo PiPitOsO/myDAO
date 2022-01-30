@@ -7,13 +7,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class MyController {
-    @GetMapping()
-    public String name() {
-        return "gi";
-    }
+//    @GetMapping()
+//    public String name() {
+//        return "gi";
+//    }
 
-    @GetMapping("/products/fetch-product")
-    public String name(@RequestParam("name") String name) {
+//    @GetMapping("/products/fetch-product")
+    @GetMapping()
+    public String name(@RequestParam(required = false) String name) {
         System.out.println("hi " + name);
         return "fetch-product";
     }
