@@ -16,6 +16,6 @@ public class MyController {
     @GetMapping()
     public String name(@RequestParam(required = false) String name) {
         System.out.println("hi " + name);
-        return "fetch-product";
+        return "fetch-product.html";
     }
 }
