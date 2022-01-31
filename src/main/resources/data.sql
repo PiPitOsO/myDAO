@@ -12,7 +12,7 @@ insert into i.CUSTOMERS (name, surname, age, phone_number) values ('Oleg', 'Sido
 insert into i.CUSTOMERS (name, surname, age, phone_number) values ('Stas', 'Azimov', 31, 89118769889);
 insert into i.CUSTOMERS (name, surname, age, phone_number) values ('Vova', 'Stypin', 20, 89118767779);
 insert into i.CUSTOMERS (name, surname, age, phone_number) values ('Roma', 'Kislin', 50, 89118763333);
-insert into i.CUSTOMERS (name, surname, age, phone_number) values ('Alexey', 'Ki', 30, 89118763223);
+insert into i.CUSTOMERS (name, surname, age, phone_number) values ('Tom', 'Ki', 30, 89118763223);
 insert into i.CUSTOMERS (name, surname, age, phone_number) values ('Alexey', 'Kim', 33, 89118553223);
 
 insert into i.ORDERS (customer_id, product_name, amount) values (1, 'milk', 1);
@@ -26,4 +26,4 @@ insert into i.ORDERS (customer_id, product_name, amount) values (13, 'soda', 2);
 insert into i.ORDERS (customer_id, product_name, amount) values (14, 'meat', 7);
 insert into i.ORDERS (customer_id, product_name, amount) values (15, 'fish', 4);
 insert into i.ORDERS (customer_id, product_name, amount) values (2, 'soda', 2);
-insert into i.ORDERS (customer_id, product_name, amount) values (15, 'soda', 7);
+insert into i.ORDERS (customer_id, product_name, amount) values (5, 'soda', 7);
