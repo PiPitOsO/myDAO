@@ -37,6 +37,6 @@ public class Order {
 
     @Override
     public String toString() {
-        return name + " заказал " + product + " в количестве: " + amount;
+        return name + " ordered " + product + " in quantity: " + amount;
     }
 }
