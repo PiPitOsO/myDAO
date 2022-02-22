@@ -1,5 +1,6 @@
-package com.example.mydao;
+package com.example.mydao.controller;
 
+import com.example.mydao.service.MyService;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,5 +1,6 @@
-package com.example.mydao;
+package com.example.mydao.repository;
 
+import com.example.mydao.model.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.dao.EmptyResultDataAccessException;

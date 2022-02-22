@@ -1,5 +1,6 @@
-package com.example.mydao;
+package com.example.mydao.initializer;
 
+import com.example.mydao.MyDaoApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 

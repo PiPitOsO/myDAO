@@ -1,4 +1,4 @@
-package com.example.mydao;
+package com.example.mydao.model;
 
 public class Order {
     private String name;

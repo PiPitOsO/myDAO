@@ -1,5 +1,6 @@
-package com.example.mydao;
+package com.example.mydao.service;
 
+import com.example.mydao.repository.MyRepository;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
